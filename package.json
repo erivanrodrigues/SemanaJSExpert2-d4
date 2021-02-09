@@ -1,0 +1,24 @@
+{
+  "name": "semanajs-d4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:dev": "npx mocha -w --exit test/",
+    "test": "npx mocha --parallel test/",
+    "test:cov":"nyc --reporter=html --reporter=text mocha --timeout  20000 --exit test/*.js",
+    "start": "node src/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify-istanbul": "^3.0.1",
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
+    "sinon": "^9.2.4"
+  },
+  "dependencies": {
+    "chai": "^4.3.0"
+  }
+}
