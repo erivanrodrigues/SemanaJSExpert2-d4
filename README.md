@@ -19,9 +19,3 @@ LOKIJS = banco dados em memoria
 
 NYC = Para montar a estrutura do teste SinonJS = E uma das bibliotecas JavaScript mais populares para testes duplos.
 
-
-
-"test:dev": "npx mocha -w --exit test/",
-    "test": "npx mocha --parallel test/",
-    "test:cov": "npx nyc --check-coverage --instrument --reporter=html --reporter=text npm test",
-    "start": "node src/"
